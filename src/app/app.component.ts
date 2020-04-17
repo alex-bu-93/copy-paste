@@ -5,7 +5,6 @@ const getMinItemsLength = arr => Math.min.apply(Math, arr.map(el => el.length));
 
 @Component({
   selector: 'app-root',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './app.component.html',
   styles: [`
       .animated { animation-duration: 0.2s }
